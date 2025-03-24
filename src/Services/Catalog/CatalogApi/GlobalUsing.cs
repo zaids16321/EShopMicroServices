@@ -3,4 +3,8 @@ global using Mapster;
 global using MediatR;
 global using BuildingBlocks.CQRS;
 global using Marten;
+global using Microsoft.AspNetCore.Routing;
+global using System.Threading.Tasks;
+global using System.Threading;
+global using Catalog.API.Exceptions;
 global using CatalogApi.Models;
